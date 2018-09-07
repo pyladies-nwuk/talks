@@ -1,5 +1,5 @@
 Attribution 4.0 International
-(2017-2018) Tania Allard
+(2017-2018) PyLadies NorthWest UK
 
 =======================================================================
 
