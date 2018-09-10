@@ -1095,7 +1095,7 @@ html {
 }
 
 .reveal .slides section.color--ice .logo {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
 }
 
 .reveal .slides section.color--dark {
@@ -1114,7 +1114,7 @@ html {
 }
 
 .reveal .slides section.color--ice .logo {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
 }
 
 .reveal .slides section.color--violet {
@@ -1123,7 +1123,7 @@ html {
 }
 
 .reveal .slides section.color--violet .logo {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
 }
 
 .reveal .slides section.color--light {
@@ -1133,7 +1133,7 @@ html {
 
 /* dark grey */
 .reveal .slides section.color--light .logo {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
 }
 
 .reveal .slides section.color--midnight {
@@ -1158,7 +1158,7 @@ html {
 }
 
 .reveal .slides section.color--vibrant .logo {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
 }
 
 .reveal .slides section.color--topaz {
@@ -1170,7 +1170,7 @@ html {
 }
 
 .reveal .slides section.color--vibrant .logo {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
 }
 
 .reveal .slides section.color--two {
@@ -1359,14 +1359,14 @@ html {
 }
 
 .reveal .slides section .logo {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
   background-repeat: no-repeat;
   background-size: auto 100%;
   display: inline-block;
   grid-area: header;
   height: 5.5vmin;
   margin-right: 1.5vmin;
-  width: 4.5vmin;
+  width: 60%;
 }
 
 .reveal .slides section .section {
@@ -1463,13 +1463,13 @@ html {
 }
 
 .reveal .slides section.title .logo {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-square-darkpink.svg");
   height: 6vmin;
   width: 6vmin;
 }
 
 .reveal .slides section.title .logo--full {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-square-darkpink.svg");
   width: 24vmin;
 }
 
@@ -1559,7 +1559,7 @@ html {
 }
 
 .reveal .slides section.subsection:not([class*=color--]) .logo, .reveal .slides section.subsection.color--light .logo {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
 }
 
 .reveal .slides section.subsection.color--midnight .description, .reveal .slides section.subsection.color--ice .description, .reveal .slides section.subsection.color--radiant .description {
@@ -1757,7 +1757,7 @@ html {
 }
 
 .reveal .slides section.end .logo {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
   background-position: center;
   background-size: contain;
   height: auto;
@@ -1768,7 +1768,7 @@ html {
 }
 
 .reveal .slides section.end.color--radiant .logo {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
 }
 
 /*******************************************************************************

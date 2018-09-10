@@ -479,7 +479,8 @@ word-wrap: normal; }
 * ADDITIONAL SLIDES CLASSES
 * THESE CAN BE USED WITH ANY THEME
 *********************************************/
-// All code
+// All code: slude for full code content, this ensures 
+// the code is shown across all the slide
 .reveal .slides section.color--code {
   background-color: #eeeeee; /* pale gray */
   font-family: $code-font;
@@ -492,7 +493,7 @@ word-wrap: normal; }
   }
 }
 .reveal .slides section.color--ice .logo {
-  background-image: url("../assets/Tania_logo.png"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
 
 
 // Black slides
@@ -507,7 +508,7 @@ word-wrap: normal; }
   background-color: #9292A8; /* pale lavender gray */
   color: $white; }
 .reveal .slides section.color--ice .logo {
-  background-image: url("../assets/Tania_logo.png"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
 
 
 // Violet slide
@@ -515,14 +516,14 @@ word-wrap: normal; }
   background-color: #3A015C;
   color: $white; }
 .reveal .slides section.color--violet .logo {
-  background-image: url("../assets/Tania_logo.png"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
 
 // Light slide
 .reveal .slides section.color--light {
   background-color: $white;
   color: #66646B;} /* dark grey */
 .reveal .slides section.color--light .logo {
-  background-image: url("../assets/Tania_logo.png"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
 
 // Dark navy
 .reveal .slides section.color--midnight {
@@ -544,7 +545,7 @@ word-wrap: normal; }
   }
 }
 .reveal .slides section.color--vibrant .logo {
-  background-image: url("../assets/Tania_logo.png"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
 
 
 // Topaz slide
@@ -556,7 +557,7 @@ word-wrap: normal; }
   }
 }
 .reveal .slides section.color--vibrant .logo {
-  background-image: url("../assets/Tania_logo.png"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
 
 // Two tones slide
 .reveal .slides section.color--two{
@@ -736,16 +737,18 @@ color: #2A2A49; } /* very dark purple */
   // background-color: #121212;
 }
 
-// Logo in header
+// Logo in slides header
 .reveal .slides section .logo {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
   background-repeat: no-repeat;
   background-size: auto 100%;
   display: inline-block;
   grid-area: header;
   height: 5.5vmin;
   margin-right: 1.5vmin;
-  width: 4.5vmin;}
+  // width: 4.5vmin;
+  width: 60%;
+}
 
 // Section title in header
 .reveal .slides section .section {
@@ -823,12 +826,12 @@ grid-template-rows: 6vmin 1fr auto;
 grid-column-gap: 10vmin; }
 
 .reveal .slides section.title .logo {
-background-image: url("../assets/Tania_logo.png");
+background-image: url("../assets/logos/pyladies-nwuk-square-darkpink.svg");
 height: 6vmin;
 width: 6vmin; }
 
 .reveal .slides section.title .logo--full {
-background-image: url("../assets/Tania_logo.png");
+background-image: url("../assets/logos/pyladies-nwuk-square-darkpink.svg");
 width: 24vmin; }
 
 .reveal .slides section.title .logo--soda {
@@ -903,7 +906,7 @@ line-height: 1.8em; }
   min-height: 4em; }
 
 .reveal .slides section.subsection:not([class*='color--']) .logo, .reveal .slides section.subsection.color--light .logo {
-  background-image: url("../assets/Tania_logo.png"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
 
 // For midnight color subsection
 .reveal .slides section.subsection.color--midnight .description, .reveal .slides section.subsection.color--ice .description, .reveal .slides section.subsection.color--radiant .description {
@@ -1064,7 +1067,7 @@ line-height: 1.8em; }
   height: 100%; }
 
 .reveal .slides section.end .logo {
-  background-image: url("../assets/Tania_logo.png");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
   background-position: center;
   background-size: contain;
   height: auto;
@@ -1074,7 +1077,7 @@ line-height: 1.8em; }
   width: 33%; }
 
 .reveal .slides section.end.color--radiant .logo {
-  background-image: url("../assets/Tania_logo.png"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
 
 /*******************************************************************************
  * Code Segments
