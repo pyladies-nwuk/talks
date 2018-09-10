@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 27/04/2018 14:51
+    Creation date: 10/09/2018 15:15
     */
 
     @font-face {
@@ -36,14 +36,30 @@
   font-smoothing: antialiased;
     }
 
-.flaticon-birthday:before { content: "\f100"; }
-.flaticon-nature-2:before { content: "\f101"; }
-.flaticon-nature-1:before { content: "\f102"; }
+    .flaticon-head:before { content: "\f100"; }
+.flaticon-art:before { content: "\f101"; }
+.flaticon-shapes:before { content: "\f102"; }
 .flaticon-nature:before { content: "\f103"; }
-.flaticon-skull:before { content: "\f104"; }
-
-    $font-Flaticon-birthday: "\f100";
-    $font-Flaticon-nature-2: "\f101";
-    $font-Flaticon-nature-1: "\f102";
+.flaticon-birthday:before { content: "\f104"; }
+.flaticon-fashion:before { content: "\f105"; }
+.flaticon-nature-1:before { content: "\f106"; }
+.flaticon-nature-2:before { content: "\f107"; }
+.flaticon-mythology:before { content: "\f108"; }
+.flaticon-code-1:before { content: "\f109"; }
+.flaticon-float:before { content: "\f10a"; }
+.flaticon-code:before { content: "\f10b"; }
+.flaticon-shooting-star:before { content: "\f10c"; }
+    
+    $font-Flaticon-head: "\f100";
+    $font-Flaticon-art: "\f101";
+    $font-Flaticon-shapes: "\f102";
     $font-Flaticon-nature: "\f103";
-    $font-Flaticon-skull: "\f104";
+    $font-Flaticon-birthday: "\f104";
+    $font-Flaticon-fashion: "\f105";
+    $font-Flaticon-nature-1: "\f106";
+    $font-Flaticon-nature-2: "\f107";
+    $font-Flaticon-mythology: "\f108";
+    $font-Flaticon-code-1: "\f109";
+    $font-Flaticon-float: "\f10a";
+    $font-Flaticon-code: "\f10b";
+    $font-Flaticon-shooting-star: "\f10c";
