@@ -1094,10 +1094,6 @@ html {
   font-size: 1rem;
 }
 
-.reveal .slides section.color--ice .logo {
-  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
-}
-
 .reveal .slides section.color--dark {
   background-color: #22272B;
   color: #EEEDEF;
@@ -1111,6 +1107,10 @@ html {
   background-color: #9292A8;
   /* pale lavender gray */
   color: #fff;
+}
+
+.reveal .slides section.color--ice .logo {
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
 }
 
 .reveal .slides section.color--ice .logo {
@@ -1149,12 +1149,12 @@ html {
   background-image: url("../assets/Tania_logo_gray.png");
 }
 
-.reveal .slides section.color--vibrant {
-  background-color: #41ead4;
-  color: #fff;
+.reveal .slides section.color--purple {
+  background-color: #a741af;
+  color: #d5d5d5;
 }
-.reveal .slides section.color--vibrant h1 {
-  color: #fff;
+.reveal .slides section.color--purple h1 {
+  color: black;
 }
 
 .reveal .slides section.color--vibrant .logo {
