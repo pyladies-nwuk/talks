@@ -21,7 +21,7 @@ $white: #fff;
 $text-color: #737373; /* dark gray */
 $salmon: #F8757F;
 $ultraviolet: #5F4B8B;
-$seagreen:  #41ead4;
+$seagreen:  #95d5d4;
 $soda-grey: #aaabab;
 
 // Fonts used with no themes
@@ -117,7 +117,7 @@ $themes: (
   ),
   'nox-font': (
   'title-font': #{'Annie Use Your Telescope', cursive},
-  'base-font' : #{'Open-Sans', sans-serif},
+  'base-font' : #{'Muli', sans-serif},
   ),
 );
 
@@ -539,7 +539,7 @@ word-wrap: normal; }
   background-color: #a741af;
   color: #d5d5d5;
   & h1{
-    color: black;
+    color: rgb(250, 250, 250);
   }
 }
 .reveal .slides section.color--vibrant .logo {

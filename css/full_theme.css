@@ -49,7 +49,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   font-family: Nunito, sans-serif;
 }
 .theme-nox-font .reveal {
-  font-family: Open-Sans, sans-serif;
+  font-family: Muli, sans-serif;
 }
 
 ::selection {
@@ -1154,7 +1154,7 @@ html {
   color: #d5d5d5;
 }
 .reveal .slides section.color--purple h1 {
-  color: black;
+  color: #fafafa;
 }
 
 .reveal .slides section.color--vibrant .logo {
@@ -1205,7 +1205,7 @@ html {
   font-family: Nunito, sans-serif;
 }
 .theme-nox-font .items-block {
-  font-family: Open-Sans, sans-serif;
+  font-family: Muli, sans-serif;
 }
 .items-block.single-block {
   width: 100%;

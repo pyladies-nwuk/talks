@@ -370,12 +370,12 @@ ul.icon li::before{
   font-family: 'flaticon';
   content: "\f10a"; /* unicorn */
   float: left;
-	width: 1.2em;
-  font-size: 1em;
-  color: #850796;  /* sea green */
+  width: 1.2em;
+  font-size: 1.2em;
+  color: #850796;  /* purple */
 }
 
-
+/* Can change the icons */
 ul.icon li.pinata::before{
   content: "\f100";
   color: #F8757F; /* salmon */
