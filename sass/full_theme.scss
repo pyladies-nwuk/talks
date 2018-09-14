@@ -492,9 +492,6 @@ word-wrap: normal; }
     font-size: 1rem;
   }
 }
-.reveal .slides section.color--ice .logo {
-  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
-
 
 // Black slides
 .reveal .slides section.color--dark {
@@ -509,7 +506,8 @@ word-wrap: normal; }
   color: $white; }
 .reveal .slides section.color--ice .logo {
   background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
-
+.reveal .slides section.color--ice .logo {
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
 
 // Violet slide
 .reveal .slides section.color--violet {
@@ -536,12 +534,12 @@ word-wrap: normal; }
 .reveal .slides section.color--midnight .logo {
   background-image: url("../assets/Tania_logo_gray.png"); }
 
-// Turquoise slide
-.reveal .slides section.color--vibrant{
-  background-color: $seagreen;
-  color:$white;
+// Purple slide
+.reveal .slides section.color--purple{
+  background-color: #a741af;
+  color: #d5d5d5;
   & h1{
-    color: $white;
+    color: black;
   }
 }
 .reveal .slides section.color--vibrant .logo {

@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 27/04/2018 14:51
+  	Creation date: 10/09/2018 15:15
   	*/
 
 @font-face {
@@ -22,15 +22,23 @@
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
-font-family: Flaticon;
-font-size: 20px;
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
 font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-pinata:before { content: "\f100"; }
-.flaticon-nopal:before { content: "\f101"; }
-.flaticon-maguey:before { content: "\f102"; }
-.flaticon-cactus:before { content: "\f103"; }
-.flaticon-skull:before { content: "\f104"; }
+.flaticon-head:before { content: "\f100"; }
+.flaticon-art:before { content: "\f101"; }
+.flaticon-shapes:before { content: "\f102"; }
+.flaticon-nature:before { content: "\f103"; }
+.flaticon-birthday:before { content: "\f104"; }
+.flaticon-fashion:before { content: "\f105"; }
+.flaticon-nature-1:before { content: "\f106"; }
+.flaticon-nature-2:before { content: "\f107"; }
+.flaticon-mythology:before { content: "\f108"; }
+.flaticon-code-1:before { content: "\f109"; }
+.flaticon-float:before { content: "\f10a"; }
+.flaticon-code:before { content: "\f10b"; }
+.flaticon-shooting-star:before { content: "\f10c"; }

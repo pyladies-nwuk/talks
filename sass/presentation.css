@@ -368,11 +368,11 @@ ul.icon li{
 
 ul.icon li::before{
   font-family: 'flaticon';
-  content: "\f102"; /* maguey */
+  content: "\f10a"; /* unicorn */
   float: left;
 	width: 1.2em;
   font-size: 1em;
-  color: #028090;  /* sea green */
+  color: #850796;  /* sea green */
 }
 
 
@@ -380,13 +380,13 @@ ul.icon li.pinata::before{
   content: "\f100";
   color: #F8757F; /* salmon */
 }
-ul.icon li.nopal::before{
-  content: "\f101";
+ul.icon li.code::before{
+  content: "\f10b";
 }
-ul.icon li.cactus::before{
-  content: "\f103";
+ul.icon li.cloud::before{
+  content: "\f109";
 }
-ul.icon li.skull::before{
-  content: "\f104";
+ul.icon li.star::before{
+  content: "\f10c";
   color: #454545; /* darkgray */
 }
