@@ -12,8 +12,8 @@
 	<link rel="stylesheet" href="reveal.js/css/theme/black.css">
 
 	<!-- Full theme; allows for the selection of multple themes -->
-	<link rel="stylesheet" href="css/full_theme.css">
-	<link rel="stylesheet" href="css/presentation.css">
+	<link rel="stylesheet" href="css/dark_theme.css">
+	<link rel="stylesheet" href="css/presentation_dark.css">
 
 	<!-- Theme used for syntax highlighting of code -->
 	<link rel="stylesheet" href="css/colorbrewer_syntax.css">
@@ -36,17 +36,17 @@
 <!-- Need to specify the theme here -->
 <!-- First theme- is for colour, theme-xxx-font is for the font -->
 
-<body class="theme-jewels theme-nox-font">
+<body class="theme-candy theme-nox-font">
 
 	<!-- Specify the main theme to be used here -->
 	<!-- this controls the background and logos -->
-	<div class="reveal pattern--pupilines">
+	<div class="reveal pattern--star">
 		<!-- Slides start here -->
 		<div class="slides">
 
 			<!-- Intro slide -->
-			<section>
-				<section class="title color--trans" id="title">
+			<section class='color--trans'>
+				<section class="title" id="title">
 					<div class="grid-wrapper">
 						<div class="header">
 							<div class="logo logo--pyladies">
@@ -54,10 +54,10 @@
 						</div>
 						<div class="content">
 							<h1>
-								A newcomer’s introduction to OSS contributions.
+								Intro to open source and how to contribute to it
 							</h1>
 							<div class="description">
-								PyCon UK 2018, Cardiff, Wales
+								Hacktoberfest 2018
 								<br>
 								<!-- <a href="https://doi.org/cn9t">https://doi.org/cn9t</a> -->
 							</div>
@@ -65,144 +65,23 @@
 						<div class="credit">
 							<hr>
 							<div class="label">Presented By</div>
-							<div class="name">Tania, Nikoleta & Kat</div>
+							<div class="name">PyLadiesNWUK, Her+Data, PyData Mcr</div>
 						</div>
 						<a class="presentation-url" href="https://pyladies-nwuk.github.io/talks/Contributing-OSS">
-							https://pyladies-nwuk.github.io/talks/Contributing-OSS<a>
-					</div>
-				</section>
-
-				<!-- Speakers introduction -->
-				<section class="about" id="about">
-					<div class="grid-wrapper">
-						<div class="content">
-							<aside>
-								<h2>Tania Allard</h2>
-								<hr>
-								<ul class="projects">
-									<li>Data engineer at Hello Soda</li>
-								</ul>
-								<hr>
-								<ul class="accounts">
-									<li><a href="https://github.com/trallard">
-											<i class="fab fa-github social_icon"></i> <span> trallard</span></a></li>
-									<li><a href="https://twitter.com/ixek">
-											<i class="fab fa-twitter social_icon"></i><span> ixek</span></a></li>
-								</ul>
-							</aside>
-						</div>
-					</div>
-				</section>
-
-				<section class="about" id="about">
-					<div class="grid-wrapper">
-						<div class="content">
-							<aside>
-								<h2>Katjuša Koler</h2>
-								<hr>
-								<ul class="projects">
-									<li>PhD student University Sheffield</li>
-								</ul>
-								<hr>
-								<ul class="accounts">
-									<li><a href="https://github.com/katkoler">
-											<i class="fab fa-github social_icon"></i> <span> katkoler</span></a></li>
-									<li><a href="https://twitter.com/PyLadiesNWK">
-											<i class="fab fa-twitter social_icon"></i><span> katkoler</span></a></li>
-								</ul>
-							</aside>
-						</div>
-					</div>
-				</section>
-
-				<section class="about" id="about">
-					<div class="grid-wrapper">
-						<div class="content">
-							<aside>
-								<h2>Nikoleta Glynatsi</h2>
-								<hr>
-								<ul class="projects">
-									<li>PhD student Cardiff University</li>
-								</ul>
-								<hr>
-								<ul class="accounts">
-									<li><a href="https://github.com/trallard">
-											<i class="fab fa-github social_icon"></i> <span> Nikoleta-v3 </span></a></li>
-									<li><a href="https://twitter.com/PyLadiesNWUK">
-											<i class="fab fa-twitter social_icon"></i><span> NikoletaGlyn </span></a></li>
-								</ul>
-							</aside>
-						</div>
+							https://pyladies-nwuk.github.io/talks/Hacktoberfest<a>
 					</div>
 				</section>
 			</section>
+
+				
 
 			<!-- Main slides content starts here -->
 			<!-- This is a single slide -->
-			<section>
-				<div class="grid-wrapper">
-					<div class="header">
-						<div class="logo"></div>
-						<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-								<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-					</div>
-					<div class="content">
-						<figure class="display">
-							<img src="assets/pyconuk/pyladies_main.png" alt="global pyladies">
-						</figure>
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<div class="grid-wrapper">
-					<div class="header">
-						<div class="logo"></div>
-						<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-								<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-					</div>
-					<div class="content">
-						<h1>Pyladies NorthWest UK</h1>
-						<p>
-							Newly created group to support and empower women and members of the
-							LGBTQ++ community across the NorthWest region of the UK
-						</p>
-						<ul class="icon">
-							<li>Meetups</li>
-							<li>Mentoring</li>
-							<li>Sprints </li>
-							<li>Workshops</li>
-						</ul>
-						<hr>
-						<p>Follow us at <a href="https://twitter.com/PyLadiesNWUK">
-								@PyLadiesNWUK</a></p>
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<div class="grid-wrapper">
-					<div class="header">
-						<div class="logo"></div>
-						<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-								<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-					</div>
-					<div class="content">
-						<h1>What is this session about?</h1>
-						<ul class='icon'>
-							<li class='fragment'>Learn more about open source</li>
-							<li class='fragment'>Maybe start contributing to OSS</li>
-							<li class='fragment'>Meet people</li>
-							<li class='fragment'>Have fun</li>
-						</ul>
-					</div>
-				</div>
-			</section>
-
+			
 
 			<!-- Intro to the session section -->
 			<section>
-				<section class=" color--topaz">
+				<section class=" color--violet">
 					<div class="grid-wrapper">
 						<div class="header">
 							<div class="logo"></div>
@@ -210,9 +89,8 @@
 									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
 						</div>
 						<div class="content">
-							<h1>🤷🏻‍♀️ Why this session?</h1>
+							<h1>What is Hacktoberfest?</h1>
 							<div class="description">
-								There are many many reasons
 							</div>
 						</div>
 					</div>
@@ -226,10 +104,13 @@
 									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
 						</div>
 						<div class="content">
-							<h2>Let's explore the Python community</h2>
-							<figure class="display">
-								<img src="assets/pyconuk/pythonpyramid.png" alt="python community">
-							</figure>
+							<ul class='icon'>
+							<li> A one month celebration of open source on GitHub </li>
+							<li> All about meaningful contribution to the open source ecosystem </li>
+							<li> Make 5 pull request to a public repository (or 5 different ones) </li>
+							<li> Get free t-shirts and stickers </li>
+
+							</ul>
 						</div>
 					</div>
 				</section>
@@ -242,10 +123,8 @@
 									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
 						</div>
 						<div class="content">
-							<h2>And throw in some numbers...</h2>
-							<figure class="display">
-								<img src="assets/pyconuk/contributors.png" alt="python community">
-							</figure>
+							<h2>What is open source?</h2>
+							<q> Software whose source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose.</q>
 						</div>
 					</div>
 				</section>
@@ -258,10 +137,7 @@
 									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
 						</div>
 						<div class="content">
-							<h2>And again...</h2>
-							<figure class="display">
-								<img src="assets/pyconuk/contributors_no.png" alt="python community">
-							</figure>
+							Some examples: Linux, Python, Mozilla Firefox, R, GitLab... and many more
 						</div>
 					</div>
 				</section>
@@ -274,13 +150,11 @@
 									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
 						</div>
 						<div class="content">
-							<h2 class="fragment current-visible">Oh wait... it is getting better</h2>
-							<div class="tweet fragment" data-src="https://twitter.com/VictorStinner/status/1040731541796614145" 
-							style="margin: 0px; position: absolute; top:15%;width: 50%;"></div>
+							Let's watch a  video <a href='https://youtu.be/Tyd0FO0tko8' target='_blank'>
+							https://youtu.be/Tyd0FO0tko8</a>
 						</div>
 					</div>
 				</section>
-
 
 				<section>
 					<div class="grid-wrapper">
@@ -290,22 +164,26 @@
 									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
 						</div>
 						<div class="content">
-							Although the community is vast and diverse we are losing diversity
-							all the way up.
-							<br>
-							<p class='fragment'>
-								Which means we also lose the opportunity to have <strong>more
-									varied ideas and proposals for our community.
-							</p>
-							</strong>
+							<h2>Let's not forget</h2>
+							<ul  class='icon'>
+								<li>OSS is all about the people</li>
+								<li>It is community driven for the community</li>
+								<li>Maintainers mostly do this during their free time</li>
+								<li>Be respectful</li>
+								<li>Maintainers/core developers have the ultimate say in many things</li>
+								<li>Large projects adhere to a Code of Conduct</li>
+							</ul>
 						</div>
 					</div>
 				</section>
+
+
+				
 				<!-- End of intro to session section -->
 			</section>
 
 			<section>
-				<section class=" color--purple">
+				<section class=" color--violet">
 					<div class="grid-wrapper">
 						<div class="header">
 							<div class="logo"></div>
@@ -334,7 +212,8 @@
 							<h2> They all roughly follow the same steps</h2>
 							<ol>
 								<li class="fragment">Make a GitHub account </li>
-								<li class="fragment">Choose a project and issue to work on</li>
+								<li class="fragment">Choose a project and issue to work on</li>								
+								<li class="fragment">Read the contributing guidelines</li>
 								<li class="fragment">Fork the repository (fancy word for <strong>copy</strong>)</li>
 								<li class="fragment">Clone the copy (a.k.a <strong>download</strong>)</li>
 								<li class="fragment">Make a branch</li>
@@ -486,290 +365,36 @@
 				</section>
 			</section>
 
-			<section>
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h2>Why are version control and GitHub important?</h2>
-							<h4 class='fragment'>Things happen!</h4>
-							<figure class="display fragment">
-								<img src="./assets/pyconuk/uniwhat.jpg" alt="gone wrong">
-							</figure>
-						</div>
+			<section class='color--light'>
+				<div class="grid-wrapper">
+					<div class="header">
+						<div class="logo"></div>
+						<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
+								<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
 					</div>
-				</section>
-
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<figure class="display">
-								<img src="./assets/pyconuk/uniwhat2.jpg" alt="double">
-							</figure>
-						</div>
+					<div class="content">
+						<figure class="display">
+							<img src="./assets/pyconuk/github1.png" alt="repo">
+						</figure>
 					</div>
-				</section>
-
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h2>Why are version control and GitHub important?</h2>
-							<h4 class='fragment'>Collaboration</h4>
-							<figure class="display fragment">
-								<img src="./assets/pyconuk/2unicorns.jpg" alt="double">
-							</figure>
-						</div>
-					</div>
-				</section>
+				</div>
 			</section>
 
-			<!-- step by step tutorial to make a PR -->
 			<section>
-				<section class=" color--topaz">
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1><i class="fab fa-github"></i> Collaborating in GitHub</h1>
-							<div class="description">
-								A.K.A your first Pull Request
-							</div>
-						</div>
+				<div class="grid-wrapper">
+					<div class="header">
+						<div class="logo"></div>
+						<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
+								<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
 					</div>
-				</section>
+					<div class="content">
+						<figure class="display">
+							<img src="./assets/pyconuk/github2.png" alt="repo">
+						</figure>
+					</div>
+				</div>
+			</section>
 
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>1. Go to PyConUK workshop repository</h1>
-							<a href="https://github.com/pyladies-nwuk/PyConUK-workshop" target="_blank">
-								https://github.com/pyladies-nwuk/PyConUK-workshop</a>
-							<figure class="display">
-								<img src="assets/pyconuk/01-start-point.png" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>2. Fork repository</h1>
-							<figure class="display">
-								<img src="assets/pyconuk/01-start-point-fork.png" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>2. Fork repository</h1>
-							<figure class="display">
-								<img src="assets/pyconuk/02-forking.png" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>2. Fork repository</h1>
-							<figure class="display">
-								<img src="assets/pyconuk/03-forking result.png" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>3. Create new file</h1>
-							<figure class="display">
-								<img src="assets/pyconuk/03-create-new-file.png" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>3. Create new file</h1>
-							<figure class="display">
-								<img src="assets/pyconuk/04-make file.png" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>4. Commit changes</h1>
-							<figure class="display">
-								<img src="assets/pyconuk/05-commit.png" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>4. Commit changes</h1>
-							<h5>(add meaningful comments)</h5>
-							<figure class="display">
-								<img src="assets/pyconuk/06-commit result.png" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
-
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>5. Open a Pull Request</h1>
-							<figure class="display">
-								<img src="assets/pyconuk/07-start PR.png" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>5. Open a Pull Request</h1>
-							<figure class="display">
-								<img src="assets/pyconuk/08-check PR.png" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>5. Open a Pull Request</h1>
-							<figure class="display">
-								<img src="assets/pyconuk/09-create PR.png" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
-
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>6. Wait for someone to check your changes</h1>
-							<figure class="display">
-								<img src="assets/pyconuk/10-wait for check.png" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>7. Merge successful! 💃🏻 </h1>
-							<figure class="display">
-								<img src="assets/pyconuk/11-merge.png" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<h1>8. Celebrate! 🤩🎉 </h1>
-							<figure class="display">
-								<img src="assets/pyconuk/High-Five.gif" alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
 
 
 
@@ -777,7 +402,7 @@
 
 			<section>
 				<!-- Contributing to a library of your choice -->
-				<section class=" color--purple">
+				<section class=" color--violet">
 					<div class="grid-wrapper">
 						<div class="header">
 							<div class="logo"></div>
@@ -787,7 +412,7 @@
 						<div class="content">
 							<h1><i class="fab fa-github"></i> Real world example</h1>
 							<div class="description">
-								The one where Nikoleta shines
+								From the awesome Nikoleta
 							</div>
 						</div>
 					</div>
@@ -952,7 +577,7 @@
 
 			<!-- hack time -->
 			<section>
-				<section class=" color--topaz">
+				<section class=" color--violet">
 					<div class="grid-wrapper">
 						<div class="header">
 							<div class="logo"></div>
@@ -986,9 +611,7 @@
 									<code>good first issue</code>
 									<a href="https://github.com/pandas-dev/pandas/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">
 										https://github.com/pandas-dev/pandas/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22</a></li>
-								<li>Projects with maintainer (Leonardo) in the room: 
-									<a href="https://github.com/lgiordani/punch">punch </a>
-									<a href="https://github.com/lgiordani/cookiecutter-pypackage">cookiecutter</a>	</li>							</li>
+								
 							</ul>
 						</div>
 					</div>
@@ -1005,11 +628,10 @@
 							<h1>Still a bit confused?</h1>
 							<figure class="display">
 								<img src="https://render.bitstrips.com/v2/cpanel/d8e66e64-ec9c-495f-947e-9bfe52d2523f-09a2f3ec-ee45-4b7f-b06b-d4462dac9ac8-v1.png?transparent=1&palette=1"
-								alt="confused"
-								 alt="global pyladies">
+								 alt="confused" alt="global pyladies">
 							</figure>
-							<img src="https://render.bitstrips.com/v2/cpanel/d8e66e64-ec9c-495f-947e-9bfe52d2523f-09a2f3ec-ee45-4b7f-b06b-d4462dac9ac8-v1.png?transparent=1&palette=1" 
-							alt="confused">
+							<img src="https://render.bitstrips.com/v2/cpanel/d8e66e64-ec9c-495f-947e-9bfe52d2523f-09a2f3ec-ee45-4b7f-b06b-d4462dac9ac8-v1.png?transparent=1&palette=1"
+							 alt="confused">
 						</div>
 					</div>
 				</section>
@@ -1024,7 +646,8 @@
 						<div class="content">
 							<h1>Other suggestions</h1>
 							<ul class='icon'>
-								<li>Documentations are the best place to make your first contribution (yes, they are valuable contributions and people really appreciate them 😎)
+								<li>Documentations are the best place to make your first contribution (yes, they are valuable contributions and
+									people really appreciate them 😎)
 								</li>
 								<li>Think about those packages you already use</li>
 								<li>Come chat to us!</li>
@@ -1033,73 +656,12 @@
 					</div>
 				</section>
 
-				
-
-				<section>
-					<div class="grid-wrapper">
-						<div class="header">
-							<div class="logo"></div>
-							<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-									<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-						</div>
-						<div class="content">
-							<p>Pair-up and have some fun!</p>
-							<figure class="display">
-								<img src="https://render.bitstrips.com/v2/cpanel/fb2dbb1a-d569-41ff-9d6d-b3f1bacc46f1-09a2f3ec-ee45-4b7f-b06b-d4462dac9ac8-v1.png?transparent=1&palette=1"
-								 alt="global pyladies">
-							</figure>
-						</div>
-					</div>
-				</section>
 			</section>
 			<!-- End slide -->
 
-			<section class="color--purple">
-				<div class="grid-wrapper">
-					<div class="header">
-						<div class="logo"></div>
-						<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-								<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-					</div>
-					<div class="content">
-						<h1>Stand up time</h1>
-						<p class='description'>The one where you all shine ✨</p>
-					</div>
-				</div>
-			</section>
+			
 
-			<section>
-				<div class="grid-wrapper">
-					<div class="header">
-						<div class="logo"></div>
-						<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-								<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-					</div>
-					<div class="content">
-						<h1>Celebrate </h1>
-						<figure class="display">
-							<img src="https://media.giphy.com/media/l4FGAREbOSRLKMiNq/giphy.gif" alt="global pyladies">
-						</figure>
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<div class="grid-wrapper">
-					<div class="header">
-						<div class="logo"></div>
-						<div class="twitter"><a href="https://twitter.com/PyLadiesNWUK">
-								<i class="fab fa-twitter"></i> <span>PyLadiesNWUK</span></a></div>
-					</div>
-					<div class="content">
-						<figure class="display">
-							<img src="assets/pyconuk/stickers.jpg" alt="stickers">
-						</figure>
-					</div>
-				</div>
-			</section>
-
-			<section id="end" class="color--topaz">
+			<section id="end" class="color--violet">
 				<div class="grid-wrapper">
 					<div class="content">
 						<a href="https://twitter.com/PyLadiesNWUK" style='color:#EEEDEF'>
