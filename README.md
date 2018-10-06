@@ -2,6 +2,7 @@
 
 
 [Beginners guideto OSS contributions](https://pyladies-nwuk.github.io/talks/Contributing-OSS.html)
+[Hacktoberfest](https://pyladies-nwuk.github.io/talks/Hacktoberfest.html)
 
 
 ### Note
