@@ -34,33 +34,13 @@ $code-font:  'Overpass Mono', monospace;
 // To define a new theme you need to create a new map
 $themes: (
   // The following are colour themes
-  'streams':(
-    'primary': #5F4B8B, /* ultra violet */
-    'secondary': #747CA8, /* lavender violet */
-    'third': #3388A6,
-    'primary-light':lighten(#5F4B8B, 10%),
-    'secondary-light' :lighten(#747CA8, 10%),
-  ),
-  'lines':(
-    'primary': #3A015C, /* violet */
-    'secondary': #41ead4, /* sea green */
-    'third': #ff206e, /* hot pink*/
-    'primary-light':lighten(#3A015C, 10%),
-    'secondary-light' :lighten(#41ead4, 10%),
-  ),
-  'seacalm':(
-    'primary': #30638B, /* steel blue */
-    'secondary': #EDAF49, /* golden */
-    'third': #00798c, /* seagreen*/
-    'primary-light':lighten(#30638B, 10%),
-    'secondary-light' :lighten(#EDAF49, 10%),
-  ),
   'goldilocks':(
     'primary': #30638B, /* steel blue */
     'secondary': #EDAF49, /* golden */
     'third': #8D4593, /* plum */
     'primary-light':lighten(#30638B, 10%),
     'secondary-light' :lighten(#EDAF49, 10%),
+    'dark-col': #18161e,
   ),
   'duotone':(
     'primary': #CC144B, /* cherry */
@@ -68,20 +48,15 @@ $themes: (
     'third': #A1AAE2, /* light lilac */
     'primary-light':lighten(#736FBA, 10%),
     'secondary-light' :lighten(#CC144B, 10%),
-  ),
-  'jewels':(
-    'secondary': #79C9E8, /*  blue topaz */
-    'primary': #4A235D, /* amethyst */
-    'third': #FF0368, /* rose */
-    'primary-light':lighten(#736FBA, 10%),
-    'secondary-light' :lighten(#CC144B, 10%),
+    'dark-col': #18161e,
   ),
   'soda':(
-    'primary': #263c80, /*dark blue*/
-    'secondary': #1073b9, /*medium blue*/
-    'third': #95d5d4, /*light aqua*/
+    'primary': #4972cb, /*dark blue*/
+    'secondary': #41a8f0, /*medium blue*/
+    'third': #35dcee, /*light aqua*/
     'primary-light':lighten( #263c80, 10%),
     'secondary-light' :lighten(#1073b9, 10%),
+    'dark-col': #18161e,
   ),
   'black':(
     'primary': #BDE16B, /*green*/
@@ -89,6 +64,24 @@ $themes: (
     'third': #F2E38A, /*yellow*/
     'primary-light':lighten(#BDE16B, 10%),
     'secondary-light' :lighten(#9080bc, 10%),
+    'dark-col':  #22272B,
+  ),
+  'candy':(
+    'primary': #bd3563, /* cherry */
+    'secondary': #d3b71f, /* lilac */
+    'third': #dbc486, /* light lilac */
+    'primary-light':lighten(#bd3563, 10%),
+    'secondary-light' :lighten(#3d3e4d, 10%),
+    // 'dark-col': #3d3e4d,
+    'dark-col': #211a38,
+  ),
+  'skeletor':(
+    'primary': #f0bb5a, /* ronchi */
+    'secondary': #987cb0, /* lavender purple */
+    'third': #3de8eb, /* picton blue */
+    'primary-light':lighten(#f0bb5a, 10%),
+    'secondary-light' :lighten(#987cb0, 10%),
+    'dark-col': #21122c, /* revolver */
   ),
   // The following are font themes
   'poppins-font':(
@@ -454,7 +447,8 @@ word-wrap: normal; }
 
 // pupilines
 .reveal.pattern--pupilines {
-  background-image: url("../assets/patterns/pupilines.svg"); }
+  background-image: url("../assets/patterns/bwlines.svg"); 
+}
 .reveal.pattern--pupilines .slides section.intro {
   @include themify($themes){
     background-color: themed('secondary')
@@ -545,6 +539,10 @@ word-wrap: normal; }
 .reveal .slides section.color--vibrant .logo {
   background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
 
+
+  // Transparent slide
+.reveal .slides section.color--trans{
+  background-color: transparent;}
 
 // Topaz slide
 .reveal .slides section.color--topaz{
@@ -698,7 +696,12 @@ color: $text-color; }
 
 // If no colour is given this is white
 .reveal .slides section:not([class*='color--']) {
-background-color: #22272B; }
+// background-color: #22272B; 
+@include themify($themes){
+  background-color: themed('dark-col')
+}
+}
+
 
 .reveal .slides section.stack {
   background-color: transparent; }
