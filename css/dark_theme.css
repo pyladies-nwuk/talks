@@ -654,17 +654,17 @@ html {
   color: #fff; }
 
 .reveal .slides section.color--ice .logo {
-  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkbg-darkpink.png"); }
 
 .reveal .slides section.color--ice .logo {
-  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkbg-darkpink.png"); }
 
 .reveal .slides section.color--violet {
   background-color: #3A015C;
   color: #fff; }
 
 .reveal .slides section.color--violet .logo {
-  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkbg-darkpink.png"); }
 
 .reveal .slides section.color--light {
   background-color: #fff;
@@ -672,7 +672,7 @@ html {
 
 /* dark grey */
 .reveal .slides section.color--light .logo {
-  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkbg-darkpink.png"); }
 
 .reveal .slides section.color--midnight {
   background-color: #2A2A49;
@@ -691,7 +691,7 @@ html {
     color: #fafafa; }
 
 .reveal .slides section.color--vibrant .logo {
-  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkbg-darkpink.png"); }
 
 .reveal .slides section.color--trans {
   background-color: transparent; }
@@ -703,7 +703,7 @@ html {
     color: #675682; }
 
 .reveal .slides section.color--vibrant .logo {
-  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkbg-darkpink.png"); }
 
 .reveal .slides section.color--two {
   background-color: #fff;
@@ -862,7 +862,7 @@ html {
   grid-area: header; }
 
 .reveal .slides section .logo {
-  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkbg-darkpink.png");
   background-repeat: no-repeat;
   background-size: auto 100%;
   display: inline-block;
@@ -1021,7 +1021,7 @@ html {
   min-height: 4em; }
 
 .reveal .slides section.subsection:not([class*='color--']) .logo, .reveal .slides section.subsection.color--light .logo {
-  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkbg-darkpink.png"); }
 
 .reveal .slides section.subsection.color--midnight .description, .reveal .slides section.subsection.color--ice .description, .reveal .slides section.subsection.color--radiant .description {
   color: #EEEDEF; }
@@ -1181,7 +1181,7 @@ html {
   height: 100%; }
 
 .reveal .slides section.end .logo {
-  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg");
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkbg-darkpink.png");
   background-position: center;
   background-size: contain;
   height: auto;
@@ -1191,7 +1191,7 @@ html {
   width: 33%; }
 
 .reveal .slides section.end.color--radiant .logo {
-  background-image: url("../assets/logos/pyladies-nwuk-writing-darkpink.svg"); }
+  background-image: url("../assets/logos/pyladies-nwuk-writing-darkbg-darkpink.png"); }
 
 /*******************************************************************************
  * Code Segments
